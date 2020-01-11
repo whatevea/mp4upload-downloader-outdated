@@ -25,5 +25,3 @@ class mp4(object):
 			params.update({item['name']:item['value']})
 		response=requests.post(self.url,data=params,verify=Falsew).content
 		return response
-s2=mp4("https://www.mp4upload.com/35uvhzb69ynx")
-open("self.fileName",'wb').write(s2.press2())
