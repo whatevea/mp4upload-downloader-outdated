@@ -23,5 +23,5 @@ class mp4(object):
 		inputs=soup.find_all('input')
 		for item in inputs:
 			params.update({item['name']:item['value']})
-		response=requests.post(self.url,data=params,verify=Falsew).content
+		response=requests.post(self.url,data=params,verify=False).content
 		return response
